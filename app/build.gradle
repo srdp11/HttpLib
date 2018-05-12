@@ -5,6 +5,7 @@ group='com.github.srdp11'
 android {
     compileSdkVersion 26
     defaultConfig {
+        consumerProguardFiles 'proguard-rules.pro'
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
